@@ -18,11 +18,11 @@ export const About = () => {
             <div className="px-5 mb-14">
                 <div className="flex justify-center">
                     <img className="rounded-full w-1/2 md:w-1/6" src={ImgMe} alt={ImgMe} />
-                </div>                {/* enlace para conocerme */}
-                <h5 className='mt-5 text-2xl font-medium text-gray-600 uppercase mb-8'>Lizandro Narváez</h5>
-                <h1 className='text-5xl md:text-7xl text-gray-900 mb-8'>Full-Stack Developer</h1>
+                </div>               
+                <h5 className='mt-5 text-xl md:text-2xl font-medium text-gray-600 uppercase mb-8'>Lizandro Narváez</h5>
+                <h1 className='text-3xl md:text-7xl text-gray-900 mb-8'>Full-Stack Developer</h1>
                 <div className="mb-10 mx-auto">
-                    <p className="text-gray-600 text-xl">
+                    <p className="text-gray-600 text-lg md:text-xl">
                         Disfruto creando aplicaciones y herramientas para facilitar el trabajo a las personas.
                     </p>
                 </div>
