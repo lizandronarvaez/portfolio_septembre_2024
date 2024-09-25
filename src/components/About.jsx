@@ -8,7 +8,7 @@ export const About = () => {
     }
     return (
         <div className='text-center py-5 md:py-14'>
-            <nav className="flex justify-between md:mb-24 border-b-2 py-2 px-3">
+            <nav className="flex justify-between md:mb-20 border-b-2 py-2 px-3">
                 <img className="w-8 md:w-14" src={LogoNav} alt={LogoNav} />
                 <button
                     onClick={() => window.open("https://drive.google.com/file/d/1kvTjpvr7MVAGQ01q2vEgbfCy8l7pZe7h/view")}
@@ -19,8 +19,8 @@ export const About = () => {
                 <div className="flex justify-center">
                     <img className="rounded-full w-1/2 md:w-1/6" src={ImgMe} alt={ImgMe} />
                 </div>               
-                <h5 className='mt-5 text-xl md:text-2xl font-medium text-gray-600 uppercase mb-8'>Lizandro Narváez</h5>
-                <h1 className='text-3xl md:text-7xl text-gray-900 mb-8'>Full-Stack Developer</h1>
+                <h5 className='mt-5 text-lg md:text-2xl font-medium text-gray-600 uppercase mb-8'>Lizandro Narváez</h5>
+                <h1 className='text-4xl md:text-7xl text-gray-900 mb-8'>Full-Stack Developer</h1>
                 <div className="mb-10 mx-auto">
                     <p className="text-gray-600 text-lg md:text-xl">
                         Disfruto creando aplicaciones y herramientas para facilitar el trabajo a las personas.
