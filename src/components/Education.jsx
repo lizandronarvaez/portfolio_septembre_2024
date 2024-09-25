@@ -13,7 +13,7 @@ export const Education = () => {
                         <div key={index} className="bg-gray-50 px-6 py-10 rounded-md flex flex-col justify-between">
                             <h4 className="font-semibold text-gray-700 text-lg mb-4">{item.title}</h4>
                             <p className="font-semibold text-gray-500 text-sm mb-4">{item.date}</p>
-                            <img className="mb-5" src={item.img} alt={item.img} />
+                            <img className="mb-5" src={item.img? item.img : null} alt="" />
                             <div className="relative">
                                 <a className="font-semibold text-white py-3 px-5 rounded-lg bg-orange-400 hover:bg-orange-600" href={item.url}>Ver Certificado</a>
                             </div>
