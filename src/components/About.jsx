@@ -8,7 +8,7 @@ export const About = () => {
     }
     return (
         <div className='text-center py-5 md:py-14'>
-            <nav className="flex justify-between md:mb-20 border-b-2 py-2 px-3">
+            <nav className="flex justify-between md:mb-16 border-b-2 py-2 px-3">
                 <img className="w-8 md:w-14" src={LogoNav} alt={LogoNav} />
                 <button
                     onClick={() => window.open("https://drive.google.com/file/d/1kvTjpvr7MVAGQ01q2vEgbfCy8l7pZe7h/view")}
