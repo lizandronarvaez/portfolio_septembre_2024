@@ -15,7 +15,7 @@ export const Education = () => {
                             <p className="font-semibold text-gray-500 text-sm mb-4">{item.date}</p>
                             <img className="mb-5" src={item?.img} alt={item?.img} />
                             <div className="relative">
-                                <a className="font-semibold text-white py-3 px-5 rounded-lg bg-orange-400 hover:bg-orange-600"
+                                <a className="font-semibold text-white py-3 px-5 rounded-lg bg-orange-400 hover:bg-orange-600 hover:cursor-pointer"
                                     onClick={() => window.open(item.url)}
                                 >
                                     Ver Certificado
