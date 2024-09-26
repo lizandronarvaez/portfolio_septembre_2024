@@ -1,43 +1,61 @@
+import React_MicroCompanys from "../../public/img/certificados/react_microempresas.jpg";
+import Solid from "../../public/img/certificados/solid.jpg";
+import Sql from "../../public/img/certificados/sql.jpg";
+import SpringbBoot from "../../public/img/certificados/springboot.jpg";
+import React from "../../public/img/certificados/react.jpg";
+import Nest from "../../public/img/certificados/nest.jpg";
+import Git_Github from "../../public/img/certificados/git_github.jpg";
+import ScrumStudy from "../../public/img/certificados/ScrumStudy.png";
 
 export const EducationData = [
-
+    {
+        title: "React para Empresas - Crea un Micro-Ecommerce React y Strapi",
+        date: "Septiembre 2024",
+        img: React_MicroCompanys,
+        url: "https://www.udemy.com/certificate/UC-1ed9a009-aedc-4abe-b676-d241b408e6d8/",
+    },
     {
         title: "Principios SOLID y Clean Code",
         date: "Agosto 2024",
-        img: "https://cdn.filestackcontent.com/gL6BfkXrRESsFrQQsMZA?policy=eyJjYWxsIjpbInBpY2siLCJzdG9yZSIsInJlYWQiLCJjb252ZXJ0Iiwid3JpdGUiLCJzdGF0IiwicmVtb3ZlIl0sImV4cGlyeSI6MTcyNzI5MjU3NCwicGF0aCI6Il42NDM1NjMvKGNvbW11bml0aWVzfGNvdXJzZXMpLyhbMC05XSspL3VzZXJzLzE1ODc4NDUzMS8ifQ%3D%3D&signature=b5f892c3894766aa844100c869e45f62365da44869fe388206049d294cc0108a",
+        img: Solid,
         url: "https://cursos.devtalles.com/certificates/vph6e0fvye",
     },
     {
         title: "SQL de cero: Tu guía práctica con PostgreSQL",
         date: "Mayo 2024",
-        img: "https://cdn.filestackcontent.com/abTC2pbQ7KrvwmFV5mUN?policy=eyJjYWxsIjpbInBpY2siLCJzdG9yZSIsInJlYWQiLCJjb252ZXJ0Iiwid3JpdGUiLCJzdGF0IiwicmVtb3ZlIl0sImV4cGlyeSI6MTcyNzI5MjY1MSwicGF0aCI6Il42NDM1NjMvKGNvbW11bml0aWVzfGNvdXJzZXMpLyhbMC05XSspL3VzZXJzLzE1ODc4NDUzMS8ifQ%3D%3D&signature=8eaeab5919c139f2aaedc1f12e2f6bf91f35d0aa4355d39713856728a15aa8af",
+        img: Sql,
         url: "https://cursos.devtalles.com/certificates/kgbds2ljwc",
     },
     {
         title: "Spring Framework 6 & Spring Boot 3 desde cero a experto 2024",
         date: "Febrero 2024",
-        img: "https://udemy-certificate.s3.amazonaws.com/image/UC-bddd7fa8-0927-4cf6-b367-339cd49e8f11.jpg?v=1708546909000",
+        img: SpringbBoot,
         url: "https://www.udemy.com/certificate/UC-bddd7fa8-0927-4cf6-b367-339cd49e8f11/",
     },
     {
         title: "React: De cero a experto ( Hooks y MERN )",
         date: "Noviembre 2023",
-        img: "https://cdn.filestackcontent.com/GJV3ugDQ2ezIciTOGcCx?policy=eyJjYWxsIjpbInBpY2siLCJzdG9yZSIsInJlYWQiLCJjb252ZXJ0Iiwid3JpdGUiLCJzdGF0IiwicmVtb3ZlIl0sImV4cGlyeSI6MTcyNzI5MjgwMCwicGF0aCI6Il42NDM1NjMvKGNvbW11bml0aWVzfGNvdXJzZXMpLyhbMC05XSspL3VzZXJzLzE1ODc4NDUzMS8ifQ%3D%3D&signature=2f3159ce1397960fc6b87daf4e05debf30275e4807dfcc794141b7eb271b20ef",
+        img: React,
         url: "https://cursos.devtalles.com/certificates/6ax4j45oal",
+    },
+    {
+        title: "Scrum Fundamentals Certified (SFC™)",
+        date: "Octubre 2023",
+        img: ScrumStudy,
+        url: "https://www.scrumstudy.com/certification/verify?type=SFC&number=1001164",
     },
     {
         title: "Nest: Desarrollo backend escalable con Node",
         date: "Septiembre 2023",
-        img: "https://cdn.filestackcontent.com/Pnz2GzJXSCETHAiLmiig?policy=eyJjYWxsIjpbInBpY2siLCJzdG9yZSIsInJlYWQiLCJjb252ZXJ0Iiwid3JpdGUiLCJzdGF0IiwicmVtb3ZlIl0sImV4cGlyeSI6MTcyNzI5MjcxMiwicGF0aCI6Il42NDM1NjMvKGNvbW11bml0aWVzfGNvdXJzZXMpLyhbMC05XSspL3VzZXJzLzE1ODc4NDUzMS8ifQ%3D%3D&signature=db51b601026ee3470402b8a13740a607ce100036b03668c4808e58bf5383df2c",
+        img: Nest,
         url: "https://cursos.devtalles.com/certificates/lzvupz4xzu",
     },
     {
         title: "GIT+GitHub: Todo un sistema de control de versiones",
         date: "Julio 2023",
-        img: "https://cdn.filestackcontent.com/5RFFIIuTBCo88Kgf3rjg?policy=eyJjYWxsIjpbInBpY2siLCJzdG9yZSIsInJlYWQiLCJjb252ZXJ0Iiwid3JpdGUiLCJzdGF0IiwicmVtb3ZlIl0sImV4cGlyeSI6MTcyNzI5Mjg1OCwicGF0aCI6Il42NDM1NjMvKGNvbW11bml0aWVzfGNvdXJzZXMpLyhbMC05XSspL3VzZXJzLzE1ODc4NDUzMS8ifQ%3D%3D&signature=931d6041ab02da4de989b8a84b9e2b36df9747738bc0fb53d8af612a277faaec",
+        img: Git_Github,
         url: "https://cursos.devtalles.com/certificates/ssojcfacdb",
     },
-
 ]
 
 
