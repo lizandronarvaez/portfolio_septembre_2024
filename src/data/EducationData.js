@@ -6,6 +6,7 @@ import React from "../../public/img/certificados/react.jpg";
 import Nest from "../../public/img/certificados/nest.jpg";
 import Git_Github from "../../public/img/certificados/git_github.jpg";
 import ScrumStudy from "../../public/img/certificados/ScrumStudy.png";
+import JsAdvanced from "../../public/img/certificados/Certificado_Ceinpro.png";
 
 export const EducationData = [
     {
@@ -56,6 +57,11 @@ export const EducationData = [
         img: Git_Github,
         url: "https://cursos.devtalles.com/certificates/ssojcfacdb",
     },
+    {
+        title: "Javascript Avanzado",
+        date: "Noviembre 2022",
+        img: JsAdvanced,
+    }
 ]
 
 
