@@ -1,14 +1,24 @@
-import React_MicroCompanys from "../../public/img/certificados/react_microempresas.jpg";
-import Solid from "../../public/img/certificados/solid.jpg";
-import Sql from "../../public/img/certificados/sql.jpg";
-import SpringbBoot from "../../public/img/certificados/springboot.jpg";
-import React from "../../public/img/certificados/react.jpg";
-import Nest from "../../public/img/certificados/nest.jpg";
-import Git_Github from "../../public/img/certificados/git_github.jpg";
-import ScrumStudy from "../../public/img/certificados/ScrumStudy.png";
-import JsAdvanced from "../../public/img/certificados/Certificado_Ceinpro.png";
+import {
+    Git_Github,
+    JsAdvanced,
+    Nest,
+    React,
+    React_MicroCompanys,
+    ScrumStudy,
+    Solid,
+    SpringbBoot,
+    Sql,
+    TailwindCss
+}
+    from "../../public/img";
 
 export const EducationData = [
+    {
+        title: "Tailwind CSS",
+        date: "Octubre 2024",
+        img: TailwindCss,
+        url: "https://www.udemy.com/certificate/UC-0b2d1a5d-c372-4a81-a11d-587d8fa4beff/",
+    },
     {
         title: "React para Empresas - Crea un Micro-Ecommerce React y Strapi",
         date: "Septiembre 2024",
