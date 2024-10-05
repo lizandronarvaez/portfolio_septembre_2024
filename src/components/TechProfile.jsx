@@ -15,9 +15,6 @@ export const TechProfile = () => {
                             <div>
                                 <img className="w-1/2 mx-auto" src={tech.img} alt={tech.img} />
                             </div>
-                            {/* titulo de la parte del conocimiento */}
-                            {/* Description de conocmientos */}
-                            {/* <p>{tech.description}</p> */}
                         </div>
                     ))
                 }
