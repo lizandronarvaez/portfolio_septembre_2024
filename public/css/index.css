@@ -1,4 +1,6 @@
+/* Etiquetas y elementos porpios del html */
 @tailwind base;
+/* solo para clases de componentes, botones */
 @tailwind components;
 @tailwind utilities;
 
