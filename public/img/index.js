@@ -13,7 +13,7 @@ import TailwindCss from "./certificados/tailwind_curso.jpg"
 // Tech
 import Frontend from "./tech/frontend.webp";
 import Backend from "./tech/backend.png";
-import Database from "./tech/database_1.jpg";
+import Database from "./tech/database_1.png";
 
 export {
     React_MicroCompanys,
