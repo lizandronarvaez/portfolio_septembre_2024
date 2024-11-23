@@ -1,7 +1,9 @@
 import ImgMe from "../../public/img/me.png"
 import LogoNav from "../../public/assets/LogoNav.svg"
 import Arrow from "../../public/assets/Arrow_down.svg"
+import { GetEnviroment } from "../utils/GetEnviroment"
 export const About = () => {
+    const { VITE_URL_CV } = GetEnviroment();
     const scrollToTech = () => {
         const element = document.getElementById("tech");
         if (element) element.scrollIntoView({ behavior: "smooth" });
@@ -11,14 +13,16 @@ export const About = () => {
             <nav className="flex justify-between md:mb-10 border-b-2 py-2 px-3">
                 <img className="w-8 md:w-14" src={LogoNav} alt={LogoNav} />
                 <button
-                    onClick={() => window.open("https://drive.google.com/file/d/1kvTjpvr7MVAGQ01q2vEgbfCy8l7pZe7h/view")}
-                    className="py-3 px-5 text-xs md:text-xl  md:px-9 md:py-4 rounded-md bg-blue-600 text-gray-50 font-semibold hover:bg-blue-900 transition ease-linear duration-500">
-                    Descargar CV</button>
+                    onClick={() => window.open(VITE_URL_CV)}
+                    className="py-3 px-5 text-xs md:text-xl  md:px-9 md:py-4 rounded-md bg-blue-600 text-gray-50 font-semibold hover:bg-blue-900 transition ease-linear duration-500"
+                >
+                    Descargar CV
+                </button>
             </nav>
             <div className="px-5 mb-14">
                 <div className="flex justify-center">
                     <img className="rounded-full w-1/2 md:w-1/6" src={ImgMe} alt={ImgMe} />
-                </div>               
+                </div>
                 <h5 className='mt-5 text-lg md:text-2xl font-medium text-gray-600 uppercase mb-8'>Lizandro Narváez</h5>
                 <h1 className='text-4xl md:text-7xl text-gray-900 mb-8'>Full-Stack Developer</h1>
                 <div className="mb-10 mx-auto">
