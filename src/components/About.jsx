@@ -10,13 +10,14 @@ export const About = () => {
     }
     return (
         <div className='text-center py-5 md:py-14'>
-            <nav className="flex justify-between md:mb-10 border-b-2 py-2 px-3">
+            <nav className="flex justify-between mb-20 border-b-2 py-2 px-3">
                 <img className="w-8 md:w-14" src={LogoNav} alt={LogoNav} />
                 <button
                     onClick={() => window.open(VITE_URL_CV)}
-                    className="py-3 px-5 text-xs md:text-xl  md:px-9 md:py-4 rounded-md bg-blue-600 text-gray-50 font-semibold hover:bg-blue-900 transition ease-linear duration-500"
+                    className="flex items-end py-3 px-5 text-xs md:text-xl md:px-9 md:py-4 rounded-md bg-blue-600 text-gray-50 font-semibold hover:bg-blue-900 transition ease-linear duration-500"
                 >
                     Descargar CV
+                    <img className="ml-2 w-5 h-5 animate-bounce" src={Arrow} alt={Arrow} />
                 </button>
             </nav>
             <div className="px-5 mb-14">
