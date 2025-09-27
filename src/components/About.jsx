@@ -1,7 +1,7 @@
-import ImgMe from "../../public/img/me.png"
 import LogoNav from "../../public/assets/LogoNav.svg"
 import Arrow from "../../public/assets/Arrow_down.svg"
 import { GetEnviroment } from "../utils/GetEnviroment"
+
 export const About = () => {
     const { VITE_URL_CV } = GetEnviroment();
     const scrollToTech = () => {
@@ -21,12 +21,9 @@ export const About = () => {
                 </button>
             </nav>
             <div className="px-5 mb-14">
-                <div className="flex justify-center">
-                    <img className="rounded-full w-1/2 md:w-1/6" src={ImgMe} alt={ImgMe} />
-                </div>
-                <h5 className='mt-5 text-lg md:text-2xl font-medium text-gray-600 uppercase mb-8'>Lizandro Narváez</h5>
-                <h1 className='text-4xl md:text-7xl text-gray-900 mb-8'>Full-Stack Developer</h1>
-                <div className="mb-10 mx-auto">
+                <p className='mt-5 text-lg md:text-2xl font-medium text-gray-600 uppercase mb-8'>Lizandro Narváez</p>
+                <p className='text-4xl md:text-7xl text-gray-900 mb-8'>Full-Stack Developer</p>
+                <div className="mb-32 mx-auto">
                     <p className="text-gray-600 text-lg md:text-xl">
                         Disfruto creando aplicaciones y herramientas para facilitar el trabajo a las personas.
                     </p>
