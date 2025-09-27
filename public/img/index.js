@@ -9,7 +9,8 @@ import Git_Github from "./certificados/git_github.jpg";
 import ScrumStudy from "./certificados/ScrumStudy.png";
 import JsAdvanced from "./certificados/Certificado_Ceinpro.png";
 import TailwindCss from "./certificados/tailwind_curso.jpg"
-
+import Jenkins from "./certificados/jenkins.jpg";
+import MicroserviciosSpringBoot from "./certificados/microservicios_springboot.jpg";
 // Tech
 import Frontend from "./tech/frontend.webp";
 import Backend from "./tech/backend.png";
@@ -28,5 +29,7 @@ export {
     TailwindCss,
     Frontend,
     Backend,
-    Database
+    Database,
+    Jenkins,
+    MicroserviciosSpringBoot
 }

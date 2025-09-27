@@ -1,6 +1,11 @@
 
 export const ProjectsData = [
     {
+        title: "HotelNG Angular",
+        url: "https://hotel-ng-angular-auiv.vercel.app/#/",
+        description: "Servicio Web desarrollado con Angular y TailwindCSS en el frontend, en backend se desarrolló una API RESTFul con Spring-Boot y una arquitectura monolítica."
+    },
+    {
         title: "E-Commerce ProteinSHOP",
         url: "https://app-protein-shop-react.vercel.app/",
         description: "Usé ReactJs y TailwindCSS en el frontend.Para consumir los datos se comunica con una API RESTful desarrollada con Spring-Boot y Spring-Security a través de Axios."
