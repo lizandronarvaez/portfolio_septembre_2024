@@ -8,11 +8,25 @@ import {
     Solid,
     SpringbBoot,
     Sql,
-    TailwindCss
+    TailwindCss,
+    Jenkins,
+    MicroserviciosSpringBoot
 }
     from "../../public/img";
 
 export const EducationData = [
+        {
+        title: "Desarrollo de Microservicios con Spring Boot",
+        date: "Julio 2025",
+        img: MicroserviciosSpringBoot,
+        url: "https://www.udemy.com/certificate/UC-1026f727-66e4-4699-8cf0-84068f1c9ec1/",
+    },
+    {
+        title: "Integración continua y entrega continua (CI/CD)",
+        date: "Mayo 2025",
+        img: Jenkins,
+        url: "https://www.udemy.com/certificate/UC-b9684390-c848-460d-b205-1e7423de8c9c/",
+    },
     {
         title: "Tailwind CSS",
         date: "Octubre 2024",
