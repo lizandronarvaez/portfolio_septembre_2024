@@ -1,11 +1,1 @@
-/* Etiquetas y elementos porpios del html */
-@tailwind base;
-/* solo para clases de componentes, botones */
-@tailwind components;
-@tailwind utilities;
-
-@layer base{
-    body {
-        @apply bg-gray-100
-    }
-}
+@import "tailwindcss";
